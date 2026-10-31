@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DringDong – Where Moments Come Alive</title>
+  <!-- Bootstrap + Icons + Font -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Our own CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header fixed-top">
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <div class="container">
+        <a class="navbar-brand logo" href="index.html">
+          <img src="images/logo.png" class="logo-img" alt="DringDong">Dring<span class="text-orange">Dong</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-label="Menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainMenu">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#features">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="index.html#download">Download</a></li>
+          </ul>
+          <a href="https://play.google.com/store/apps/details?id=com.xdev.dringdong" target="_blank" class="btn btn-orange btn-sm">Get the app</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7">
+          <span class="pill-badge"><i class="bi bi-circle-fill"></i> LIVE ON GOOGLE PLAY</span>
+          <h1 class="hero-title">Where moments<br><span class="gradient-text">come alive</span></h1>
+          <p class="hero-text">DringDong is live streaming redefined — broadcast instantly, react in real time, and turn ordinary moments into collective memories with people who show up for them.</p>
+          <div class="d-flex flex-wrap align-items-center gap-3 mb-3">
+            <a href="https://play.google.com/store/apps/details?id=com.xdev.dringdong" target="_blank" class="btn btn-orange btn-lg"><i class="bi bi-download me-2"></i>Download on Google Play</a>
+            <a href="#features" class="link-light small fw-semibold text-decoration-none">See what's inside &rarr;</a>
+          </div>
+          <p class="small text-muted-2"><i class="bi bi-heart text-orange me-1"></i> Free to download · Real-time reactions · A community, not just an app</p>
+        </div>
+
+        <!-- Hero image: images/hero.png (apni image se replace kar sakte ho) -->
+        <div class="col-lg-5 mt-5 mt-lg-0">
+          <img src="images/hero.png" class="hero-img" alt="DringDong app preview">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY (auto sliding) ===== -->
+  <section class="gallery" id="gallery">
+    <p class="section-label">STRAIGHT FROM THE APP</p>
+    <div class="slider">
+      <div class="slider-track">
+        <!-- Set 1 (naya screenshot yahan add karo) -->
+        <img src="images/shot1.png" class="shot" alt="App screenshot">
+        <img src="images/shot2.png" class="shot" alt="App screenshot">
+        <img src="images/shot3.png" class="shot" alt="App screenshot">
+        <img src="images/shot4.png" class="shot" alt="App screenshot">
+        <img src="images/shot-wide.png" class="shot" alt="App screenshot">
+        <img src="images/shot5.png" class="shot" alt="App screenshot">
+        <img src="images/shot2.png" class="shot" alt="App screenshot">
+        <img src="images/shot3.png" class="shot" alt="App screenshot">
+        <img src="images/shot4.png" class="shot" alt="App screenshot">
+        <img src="images/shot1.png" class="shot" alt="App screenshot">
+        <!-- Set 2 = Set 1 ki copy (endless loop ke liye, dono mein same rakho) -->
+        <img src="images/shot1.png" class="shot" alt="App screenshot">
+        <img src="images/shot2.png" class="shot" alt="App screenshot">
+        <img src="images/shot3.png" class="shot" alt="App screenshot">
+        <img src="images/shot4.png" class="shot" alt="App screenshot">
+        <img src="images/shot-wide.png" class="shot" alt="App screenshot">
+        <img src="images/shot5.png" class="shot" alt="App screenshot">
+        <img src="images/shot2.png" class="shot" alt="App screenshot">
+        <img src="images/shot3.png" class="shot" alt="App screenshot">
+        <img src="images/shot4.png" class="shot" alt="App screenshot">
+        <img src="images/shot1.png" class="shot" alt="App screenshot">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="pill-badge pill-outline">BUILT FOR THE PRESENT MOMENT</span>
+        <h2 class="section-title mt-3">Everything a live moment needs</h2>
+        <p class="section-text mx-auto">A sleek, intuitive experience that makes going live simple — and makes every stream feel personal.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-broadcast"></i></div>
+            <h3>Broadcast instantly</h3>
+            <p>Go live in seconds — no waiting rooms, no fuss. Your moment starts the second you hit the button.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-lightning-charge"></i></div>
+            <h3>Real-time reactions</h3>
+            <p>Reactions fly across every stream, making each broadcast feel personal and alive.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-chat-heart"></i></div>
+            <h3>Lively comment threads</h3>
+            <p>Chat that moves with the stream — talk, joke and cheer with your people as it happens.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-stars"></i></div>
+            <h3>Authentic community</h3>
+            <p>More than an app: a vibrant ecosystem built around showing up as yourself.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-balloon-heart"></i></div>
+            <h3>Celebrate together</h3>
+            <p>Milestones, wins and ordinary Tuesdays — shared live with people who actually care.</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="feature-card">
+            <div class="feature-icon"><i class="bi bi-compass"></i></div>
+            <h3>Discover what's live</h3>
+            <p>Find creators and moments happening right now, from across the DringDong community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== QUOTE ===== -->
+  <section class="quote">
+    <div class="container text-center">
+      <div class="quote-mark">&rdquo;</div>
+      <p class="quote-text">DringDong redefines live streaming — not just as entertainment, but as an experience that unites people through the <span class="gradient-text">energy of the present moment</span>.</p>
+      <p class="section-label mb-0">THE DRINGDONG TEAM</p>
+    </div>
+  </section>
+
+  <!-- ===== DOWNLOAD / CTA ===== -->
+  <section class="cta-section" id="download">
+    <div class="container">
+      <div class="cta-box text-center">
+        <h2 class="section-title">Ready to go live?</h2>
+        <p class="section-text mx-auto">Grab your phone, hit the button, and share the moment with the entire DringDong community.</p>
+        <a href="https://play.google.com/store/apps/details?id=com.xdev.dringdong" target="_blank" class="btn btn-orange btn-lg mt-3"><i class="bi bi-download me-2"></i>Get DringDong — free</a>
+        <p class="small text-muted-2 mt-4 mb-0">Android · Free download · In-app purchases</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+      <div class="d-flex align-items-center gap-2">
+        <img src="images/logo.png" class="logo-img" alt="DringDong">
+        <div>
+          <div class="fw-bold">Dring<span class="text-orange">Dong</span></div>
+          <small class="text-muted-2">&copy; <span id="year">2026</span> Webmass Digital LLC</small>
+        </div>
+      </div>
+      <ul class="footer-links list-unstyled d-flex flex-wrap justify-content-center gap-4 mb-0">
+        <li><a href="https://play.google.com/store/apps/details?id=com.xdev.dringdong" target="_blank">Google Play</a></li>
+        <li><a href="https://dringdong.com" target="_blank">dringdong.com</a></li>
+        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
